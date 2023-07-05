@@ -1,0 +1,20 @@
+.mainbody{
+    /* height: 80vh; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+
+}
+.leftportion{
+    height: 80vh;
+    width: 50%;
+    background-color: rgb(101, 40, 50);
+    z-index: 2;
+}
+
+.rightportion{
+    height: 40vh;
+    width: 50%;
+    background-color: rgb(214, 103, 123);
+    /* z-index: 0; */
+}
