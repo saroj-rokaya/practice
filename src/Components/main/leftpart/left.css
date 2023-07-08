@@ -1,8 +1,17 @@
 
 .photo{
     height: 40vh;
-    /* width: 100%; */
-    border: 2px solid red;
-    border-radius: 50%;    
-
+    border: 2px solid rgb(60, 0, 255);
+    border-style: groove;
+    border-radius: 50%;  
+    box-shadow:  -1em 0 0.4em rgb(81, 36, 171);
+}
+.intro{
+    font-size: 2rem;
+}
+.photocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
