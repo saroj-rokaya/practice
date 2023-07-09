@@ -6,7 +6,7 @@
 .header{
     height: 10vh;
     width: 100%;
-    background-color: rgb(214, 209, 209);
+    background-color: rgb(5, 13, 127);
 
 }
 nav{
@@ -27,9 +27,10 @@ ul{
     align-items: center;
 }
 #name{
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
     margin-left: 10vh;
+    color: cyan;
 }
 ul li{
     list-style: none;
@@ -37,8 +38,8 @@ ul li{
     margin-right: 10px;
     font-size: 1.2em;
     cursor: pointer;
-    /* background-color: red; */
     width: 9vh;
+    color: cyan;
 
 }
 ul li:hover{
