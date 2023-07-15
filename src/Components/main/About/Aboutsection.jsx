@@ -4,7 +4,7 @@ import "./aboutsection.css";
 export default function Aboutsection() {
   return (
     <div className="aboutcontainer">
-      <div className="aboutme">About Me</div>
+      <div className="aboutme">About</div>
       <div className="aboutcontent">
         Hello and welcome! My name is Saroj Kumar Rokaya and I'm thrilled to
         have you here. I am a passionate Front-end Web Developer with lots of
