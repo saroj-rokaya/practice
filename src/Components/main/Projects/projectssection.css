@@ -9,7 +9,7 @@
 }
 
 .projectss{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     margin-left: 3%;
     /* background-color: red; */
@@ -23,6 +23,7 @@
     height: 30vh;
     width: 50%;
     color: cyan;
+    font-size: 18px;
     
     /* background-color: pink; */
     display: flex;

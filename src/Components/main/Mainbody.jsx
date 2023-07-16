@@ -4,6 +4,7 @@ import Homesection from './Home/Homesection'
 import Aboutsection from './About/Aboutsection'
 import Skillssection from './Skills/Skillssection'
 import Projectssection from './Projects/Projectssection'
+import Contacts from './Contacts/Contacts'
 
 
 export default function Mainbody() {
@@ -24,6 +25,10 @@ export default function Mainbody() {
 
         <div className="projects">
           <Projectssection/>
+        </div>
+
+        <div className="contacts">
+          <Contacts/>
         </div>
 
         
