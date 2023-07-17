@@ -1,34 +1,34 @@
 import React from 'react'
 import "./mainbody.css"
-import Homesection from './Home/Homesection'
-import Aboutsection from './About/Aboutsection'
-import Skillssection from './Skills/Skillssection'
-import Projectssection from './Projects/Projectssection'
-import Contacts from './Contacts/Contacts'
+import HomeSection from './Home/HomeSection'
+import AboutSection from './About/AboutSection'
+import SkillsSection from './Skills/SkillsSection'
+import ProjectsSection from './Projects/ProjectsSection'
+import ContactsSection from './Contacts/ContactsSection'
 
 
-export default function Mainbody() {
+export default function MainBody() {
   return (
     <>
 
         <div className="home">
-            <Homesection/>
+            <HomeSection/>
         </div>
         
         <div className="about">
-          <Aboutsection/>
+          <AboutSection/>
         </div>
 
         <div className="skills">
-          <Skillssection/>
+          <SkillsSection/>
         </div>
 
         <div className="projects">
-          <Projectssection/>
+          <ProjectsSection/>
         </div>
 
         <div className="contacts">
-          <Contacts/>
+          <ContactsSection/>
         </div>
 
         
