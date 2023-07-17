@@ -1,13 +1,13 @@
 import React from 'react'
 import "./mainbody.css"
 import HomeSection from './Home/HomeSection'
-import AboutSection from './About/AboutSection'
+import Aboutsection from './About/Aboutsection'
 import SkillsSection from './Skills/SkillsSection'
 import ProjectsSection from './Projects/ProjectsSection'
 import ContactsSection from './Contacts/ContactsSection'
 
 
-export default function MainBody() {
+export default function Mainbody() {
   return (
     <>
 
@@ -16,7 +16,7 @@ export default function MainBody() {
         </div>
         
         <div className="about">
-          <AboutSection/>
+          <Aboutsection/>
         </div>
 
         <div className="skills">

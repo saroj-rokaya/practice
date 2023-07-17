@@ -36,10 +36,12 @@ ul li{
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
+    /* gap: 10px; */
     font-size: 1.2em;
     cursor: pointer;
-    width: 9vh;
+    /* width: 3vw; */
     color: cyan;
+    /* background-color: red; */
 
 }
 ul li:hover{

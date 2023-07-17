@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
-import MainBody from '../main/MainBody'
+import Mainbody from '../main/Mainbody'
+import "./all.css"
 
 export default function All() {
   return (
-    <div>
+    <div className="allstyle">
       <Header/>
-      <MainBody/>
+      <Mainbody/>
       <Footer/>
     </div>
   )
