@@ -5,7 +5,10 @@ export default function Header() {
   return (
     <div className="header">
         <nav>
-            <p id="name">Saroj Kumar Rokaya</p>
+            <div className="namecontainer">
+            <p className="name">Saroj Kumar Rokaya</p>
+            <p className="name">Saroj Kumar Rokaya</p>
+            </div>
             <ul>
                 <li>Home</li>
                 <li>About</li>

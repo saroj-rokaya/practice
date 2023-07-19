@@ -1,38 +1,81 @@
-
-*{
+:root{
+    --lightblue-color: rgb(5, 13, 127);
+      
+}
+* {
     padding: 0;
     margin: 0;
 }
-.header{
+
+.header {
     height: 10vh;
     width: 100%;
-    background-color: rgb(5, 13, 127);
+    background-color: var(--lightblue-color);
 
 }
-nav{
+
+nav {
     display: flex;
-    height: 10vh; 
+    height: 10vh;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 
 
-ul{
+ul {
     display: flex;
     height: 10vh;
     flex-direction: row;
     justify-content: end;
     align-items: center;
 }
-#name{
-    font-size: 1.7em;
-    font-weight: bold;
-    margin-left: 10vh;
-    color: cyan;
+
+nav .namecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 10vh;
+    margin-left: 5vw;
+    flex-direction: column;
+    /* background-color: wheat; */
 }
-ul li{
+
+.name {
+    font-size: 2.5rem;
+    color: cyan;
+
+}
+
+p.name:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 0.5px cyan;
+    /* background-color: cyan; */
+    transform: translate(0%, 78%);
+
+}
+
+p.name:nth-child(2) {
+    color: cyan;
+    transform: translate(0%, -50%);
+    /* background-color: green; */
+    animation: weavy-effect 2s ease-in-out infinite;
+}
+@keyframes weavy-effect {
+    0%,100%{
+        clip-path: polygon(0 34%, 15% 70%, 35% 38%, 56% 61%, 79% 33%, 99% 54%, 100% 100%, 0 100%);
+
+    }
+    50%{
+        clip-path: polygon(0 57%, 18% 32%, 39% 64%, 54% 32%, 78% 66%, 100% 32%, 100% 100%, 0 100%);
+
+    }
+    
+}
+
+
+ul li {
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
@@ -44,7 +87,8 @@ ul li{
     /* background-color: red; */
 
 }
-ul li:hover{
+
+ul li:hover {
     font-weight: bold;
     text-decoration: underline;
 }

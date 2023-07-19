@@ -1,32 +1,34 @@
-
+:root{
+    --darkblue-color: rgb(3, 8, 76);
+}
 .home{
     height: 50vh;
     width: 100%;
     margin-top: 1px;
-    background-color: rgb(3, 8, 76);
+    background-color: var(--darkblue-color);
 }
 .about{
     height: 30vh;
     margin-top: 0.5px;
-    background-color: rgb(3, 8, 76);
+    background-color: var(--darkblue-color);
 
 }
 .skills{
     height: 30vh;
     margin-top: 0.5px;
-    background-color: rgb(3, 8, 76);
+    background-color: var(--darkblue-color);
 
 }
 .projects{
     height: 30vh;
     margin-top: 1px;
-    background-color: rgb(3, 8, 76);
+    background-color: var(--darkblue-color);
 
 }
 
 .contacts{
     height: 30vh;
     margin-top: 1px;
-    background-color: rgb(3, 8, 76);
+    background-color: var(--darkblue-color);
 
 }
