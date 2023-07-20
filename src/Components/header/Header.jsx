@@ -10,11 +10,11 @@ export default function Header() {
             <p className="name">Saroj Kumar Rokaya</p>
             </div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li className="navlists">Home</li>
+                <li className="navlists">About</li>
+                <li className="navlists">Skills</li>
+                <li className="navlists">Projects</li>
+                <li className="navlists">Contact</li>
             </ul>
         </nav>
     </div>

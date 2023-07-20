@@ -75,7 +75,7 @@ p.name:nth-child(2) {
 }
 
 
-ul li {
+ul li.navlists {
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
@@ -91,4 +91,5 @@ ul li {
 ul li:hover {
     font-weight: bold;
     text-decoration: underline;
+    color: rgb(193, 11, 11);
 }
