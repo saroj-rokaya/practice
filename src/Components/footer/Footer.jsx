@@ -26,7 +26,7 @@ export default function Footer() {
               <p className="footerintro">
               Greetings! <br /> <br />
                 I'm Saroj Kumar Rokaya <br /> <br />
-                a passionate Web Developer with a love for all things creative. <br /> <br />
+                A passionate Web Developer with a love for all things creative. <br /> <br />
                 Let's collaborate and bring ideas to life! 🌟
               </p>
 
@@ -46,7 +46,36 @@ export default function Footer() {
         </div>
         
         <div className="right-footer-container">
-            hi
+
+          <div className="footer-contact-header">
+            <div className="follow-me-section">
+              Follow me
+            </div>
+            <div className="contact-section">
+              Contacts
+            </div>
+          </div>
+
+          <div className="footer-contact-body">
+            <div className="follow-me-body">
+            <ol className="follow-me-lists">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Linkedin</li>
+                <li>Github</li>
+              </ol>
+            </div>
+
+            <div className="contact-section-body">
+            <ol className="contact-lists">
+                <li>Ph:-<span>9849925392</span></li>
+                <li>Email:-<span className="email">rokayasaroj188@gmail.com</span></li>
+                
+              </ol>
+            </div>
+          </div>
+          
+
         </div>
 
       </div>

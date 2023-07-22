@@ -12,7 +12,6 @@
 .left-footer-container{
     height: 50vh;
     width: 50%;
-    /* display: flex; */
 }
 .footer-headers{
 
@@ -67,39 +66,93 @@
     margin-bottom: 10px;
 }
 .lists li:hover{
-    color: brown;
-    
-
+    opacity: 60%;
+ 
 }
 
-
-
-
-
-
-
+/* right footer section */
 .right-footer-container{
     height: 50vh;
     width: 50%;
-    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-contact-header{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    margin-left: 60px;
+
+
+}
+.follow-me-section{
+    height: 10vh;
+    width: 40%;
+    color: cyan;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    opacity: 60%;
+}
+.contact-section{
+    height: 10vh;
+    width: 50%;
+    color: cyan;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    opacity: 60%;
+    margin-left: -10px;
 
 }
 
 
+.footer-contact-body{
+    display: flex;
+}
+.follow-me-body{
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    margin-left: 30px;
+}
+.contact-section-body{
+    height: 40vh;
+    width: 60%;
+    display: flex;
+}
+.follow-me-lists li{
+    list-style: none;
+    color: cyan;
+}
+.follow-me-lists li:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+.contact-lists li{
+    list-style: none;
+    color: cyan;
+
+}
+.contact-lists li span.email:hover{
+    cursor: pointer;
+    text-decoration: 1px solid underline;
+    opacity: 60%;
 
 
+}
 
-
-
-
-
+/* copyright section */
 .copyright{
 
     height: 4vh;
     width: 100%;
     text-align: center;
-    background-color: rgb(5, 13, 127);
+    background-color: rgb(3, 8, 76);
     padding-top: 2px;
     color: cyan;
+    
 
 }
