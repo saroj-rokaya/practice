@@ -1,38 +1,61 @@
 import React from "react";
 import "./footer.css";
+import image from './image.png'
+
 
 export default function Footer() {
   return (
     <>
-      <div className="footer">
+      <div className="footercontainer">
 
-        <div className="footernav">
-        <p className="navlistfooterlink">Lists :-</p>
+        <div className="left-footer-container">
 
-          <ul>            
-            <li className="navlistfooter">Home</li>
-            <li className="navlistfooter">About</li>
-            <li className="navlistfooter">Skills</li>
-            <li className="navlistfooter">Projects</li>
-            <li className="navlistfooter">Contact</li>
-            
-          </ul>
+          <div className="footer-headers">
+            <div className="left-right-footer-header">
+             <img src={image} className="footer-image" alt="image" />
+              saroj rokaya
+            </div>
+            <div className="left-right-footer-header">
+              links
+            </div>
+          </div>
+
+          <div className="footer-bodies">
+
+            <div className="left-right-footer-body">
+              <p className="footerintro">
+              Greetings! <br /> <br />
+                I'm Saroj Kumar Rokaya <br /> <br />
+                a passionate Web Developer with a love for all things creative. <br /> <br />
+                Let's collaborate and bring ideas to life! 🌟
+              </p>
+
+            </div>
+
+            <div className="left-right-footer-body">
+              <ol className="lists">
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Contact</li>
+              </ol>
+            </div>
+          </div>
+
+        </div>
+        
+        <div className="right-footer-container">
+            hi
         </div>
 
-        <div className="footerlink">
-            <p className="navlistfooterlink">Contact Me :-</p>
-          <ul>
-            <li className="navlistfooter">Facebook</li>
-            <li className="navlistfooter">Whatsapp</li>
-            <li className="navlistfooter">Linked IN</li>
-            <li className="navlistfooter">Github</li>
-          </ul>
-        </div>
       </div>
+
 
       <div className="copyright">
         &copy;Copyright 2023, All right reserved || Saroj Kumar Rokaya
       </div>
+
     </>
   );
 }

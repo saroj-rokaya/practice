@@ -1,51 +1,105 @@
-.footer{
-    margin-top: 0.5px;
+
+
+.footercontainer{
     height: 50vh;
     width: 100%;
+    background-color: rgb(3, 8, 76);
+    display: flex;
     margin-top: 1px;
-    background-color: rgb(5, 13, 127);
+    
+
+}
+.left-footer-container{
+    height: 50vh;
+    width: 50%;
+    /* display: flex; */
+}
+.footer-headers{
+
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-right-footer-header{
+    height: 10vh;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     color: cyan;
-}
-ul li.navlistfooter{
-    list-style: none;
-    /* background-color: red; */
-    margin-left: 10px;
-    cursor: pointer;
-}
-.navlistfooterlink{
-    display: absolute;
+    font-size: 1.3rem;
+    opacity: 60%;
     
-    text-align: center;
-    font-size: 1.2rem;
-    max-height: 4vh;
-    /* max-width: 50%; */
-    font-weight: 900;
-    background-color: red;
 }
-ul li.navlistfooter:hover{
-    color: rgb(193, 11, 11);
+.footer-image{
+    margin-right: 10px;
+    height: 5vh;
+    opacity: 100%;
+}
+
+
+
+.footer-bodies{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+.left-right-footer-body{
+    height: 40vh;
+    width: 60%;
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footerintro{
+    color: cyan;
+    width: 100%;
+    margin-left: 9.5rem;
+}
+
+.lists li{
+    list-style: none;
+    color: cyan;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.lists li:hover{
+    color: brown;
+    
 
 }
-.footerlink,.footernav{
-    display: relative;
-    height: 50vh; 
-    margin-left: 1px;
-    width: 100%;  
-    background-color: green;
-    display: flex;    
-    justify-content: center;
-    /* align-items: center; */
+
+
+
+
+
+
+
+.right-footer-container{
+    height: 50vh;
+    width: 50%;
+    background-color: burlywood;
+
 }
+
+
+
+
+
+
 
 
 
 .copyright{
-    height: 5vh;
-    background-color: rgb(5, 13, 127);
+
+    height: 4vh;
+    width: 100%;
     text-align: center;
+    background-color: rgb(5, 13, 127);
+    padding-top: 2px;
     color: cyan;
+
 }
