@@ -75,21 +75,18 @@ p.name:nth-child(2) {
 }
 
 
-ul li.navlists {
+.header-nav-list,ul li.navlists {
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
-    /* gap: 10px; */
     font-size: 1.2em;
     cursor: pointer;
-    /* width: 3vw; */
     color: cyan;
-    /* background-color: red; */
 
 }
 
-ul li:hover {
-    font-weight: bold;
+.header-nav-list,ul li:hover {
+    
     text-decoration: underline;
-    color: rgb(193, 11, 11);
+    opacity: 75%;
 }

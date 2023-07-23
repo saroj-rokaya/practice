@@ -9,7 +9,7 @@ export default function Header() {
             <p className="name">Saroj Kumar Rokaya</p>
             <p className="name">Saroj Kumar Rokaya</p>
             </div>
-            <ul>
+            <ul className="header-nav-lists">
                 <li className="navlists">Home</li>
                 <li className="navlists">About</li>
                 <li className="navlists">Skills</li>
