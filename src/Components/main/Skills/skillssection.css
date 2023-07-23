@@ -1,33 +1,27 @@
 
-.skillscontainer{
+.skills-container{
     color: cyan;
     display: flex;
-    background-color: red;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-left: -15%;
 
 }
-
-.skillss{
+.skills-contents{
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 700;   
     margin-left: 3%;
-    background-color: blue;
     height: 30vh;
     width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sklcrt{
-    /* margin-left: 20px; */
+.skill-no-1{
     height: 30vh;
-    width: 10%;
+    width: 50%;
     color: cyan;
     font-size: 18px;
-    
-    background-color: pink;
     display: flex;
     justify-content: center;
     align-items: center;

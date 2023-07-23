@@ -59,9 +59,9 @@ p.name:nth-child(1) {
 p.name:nth-child(2) {
     color: cyan;
     transform: translate(0%, -50%);
-    /* background-color: green; */
     animation: weavy-effect 2s ease-in-out infinite;
 }
+
 @keyframes weavy-effect {
     0%,100%{
         clip-path: polygon(0 34%, 15% 70%, 35% 38%, 56% 61%, 79% 33%, 99% 54%, 100% 100%, 0 100%);
