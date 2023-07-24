@@ -10,7 +10,8 @@ export default function Contacts() {
     </div>
 
     <div className="contactsform">
-      Contactsform
+  
+      
     </div>
 
 

@@ -28,16 +28,28 @@
     align-items: center;
     color: cyan;
     font-size: 1.3rem;
-    opacity: 60%;
+    /* opacity: 60%; */
+    /* background-color: red; */
     
 }
-.footer-image{
+
+#footer-image{
     margin-right: 10px;
-    height: 5vh;
+    margin-top: -10px;
+    height: 7vh;
     opacity: 100%;
 }
-
-
+#name{
+    margin-top: 10px;
+    /* font-weight: 999; */
+    color: transparent;
+    -webkit-text-stroke: 2px cyan;
+    opacity: 60%;
+}
+#link-hdr{
+    margin-top: 10px;
+    opacity: 60%;
+}
 
 .footer-bodies{
     height: 40vh;
@@ -67,9 +79,8 @@
 }
 .lists li:hover{
     opacity: 60%;
- 
+    text-decoration: underline;    
 }
-
 /* right footer section */
 .right-footer-container{
     height: 50vh;
@@ -130,6 +141,7 @@
 .follow-me-lists li:hover{
     cursor: pointer;
     opacity: 60%;
+    text-decoration: underline;
 }
 .contact-lists li{
     list-style: none;

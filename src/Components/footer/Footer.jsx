@@ -12,11 +12,11 @@ export default function Footer() {
 
           <div className="footer-headers">
             <div className="left-right-footer-header">
-             <img src={image} className="footer-image" alt="image" />
-              saroj rokaya
+             <img src={image} id="footer-image" alt="image" />
+              <p id="name">saroj rokaya</p>
             </div>
             <div className="left-right-footer-header">
-              links
+              <p id="link-hdr">Links</p>
             </div>
           </div>
 
