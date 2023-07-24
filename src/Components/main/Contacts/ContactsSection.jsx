@@ -6,7 +6,7 @@ export default function Contacts() {
     <div className="contactscontainer">
 
     <div className="contactss">
-      Contacts
+      Contact
     </div>
 
     <div className="contactsform">

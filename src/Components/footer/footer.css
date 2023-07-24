@@ -41,10 +41,9 @@
 }
 #name{
     margin-top: 10px;
-    /* font-weight: 999; */
-    color: transparent;
-    -webkit-text-stroke: 2px cyan;
+    font-weight: 999;
     opacity: 60%;
+    margin-right: -70px;
 }
 #link-hdr{
     margin-top: 10px;
