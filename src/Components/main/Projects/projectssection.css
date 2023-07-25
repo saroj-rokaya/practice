@@ -12,7 +12,6 @@
     font-size: 20px;
     font-weight: 700;
     margin-left: 3%;
-    /* background-color: red; */
     height: 30vh;
     width: 10%;
     display: flex;
@@ -25,7 +24,6 @@
     color: cyan;
     font-size: 18px;
     
-    /* background-color: pink; */
     display: flex;
     justify-content: center;
     align-items: center;

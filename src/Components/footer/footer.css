@@ -28,8 +28,7 @@
     align-items: center;
     color: cyan;
     font-size: 1.3rem;
-    /* opacity: 60%; */
-    /* background-color: red; */
+    
     
 }
 
@@ -80,7 +79,6 @@
     opacity: 60%;
     text-decoration: underline;    
 }
-/* right footer section */
 .right-footer-container{
     height: 50vh;
     width: 50%;

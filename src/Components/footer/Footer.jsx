@@ -66,6 +66,7 @@ export default function Footer() {
               </ol>
             </div>
 
+
             <div className="contact-section-body">
             <ol className="contact-lists">
                 <li>Ph:-<span>9849925392</span></li>
@@ -80,7 +81,7 @@ export default function Footer() {
 
       </div>
 
-
+      {/* copyright footer section */}
       <div className="copyright">
         &copy;Copyright 2023, All right reserved || Saroj Kumar Rokaya
       </div>

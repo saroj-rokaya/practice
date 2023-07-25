@@ -11,7 +11,6 @@
 }
 .introcontainer{
     color: cyan;
-    /* background-color: red; */
     height: 50vh;
     width: 40%;
     display: flex;
@@ -21,7 +20,6 @@
 }
 .welcome{
     font-size: 40px;
-    /* font-weight: 999; */
 }
 .intro{
     font-size: 30px;
@@ -30,7 +28,6 @@
     color: red;
 }
 .myweb{
-    /* -webkit-text-stroke: 2px white; */
     color: transparent;
     font-weight: 600;
     background-image: linear-gradient(45deg,cyan,red,blue);
