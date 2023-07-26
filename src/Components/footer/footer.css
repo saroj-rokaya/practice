@@ -88,10 +88,11 @@
 }
 
 .footer-contact-header{
-    height: 50vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     margin-left: 60px;
+    /* overflow: hidden; */
 
 
 }
@@ -113,6 +114,7 @@
     font-size: 1.3rem;
     opacity: 60%;
     margin-left: -10px;
+    /* overflow: hidden; */
 
 }
 
@@ -125,11 +127,15 @@
     width: 40%;
     display: flex;
     margin-left: 30px;
+    overflow: hidden;
 }
 .contact-section-body{
-    height: 40vh;
+    height: 10vh;
     width: 60%;
     display: flex;
+    overflow: hidden;
+    /* background-color: red; */
+
 }
 .follow-me-lists li{
     list-style: none;

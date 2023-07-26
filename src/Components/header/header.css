@@ -20,6 +20,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 
@@ -44,36 +45,9 @@ nav .namecontainer {
 .name {
     font-size: 2.5rem;
     color: cyan;
+    font-weight: 999;
 
 }
-
-p.name:nth-child(1) {
-    color: transparent;
-    -webkit-text-stroke: 0.5px cyan;
-    transform: translate(0%, 78%);
-
-}
-
-p.name:nth-child(2) {
-    color: cyan;
-    transform: translate(0%, -50%);
-    animation: weavy-effect 2s ease-in-out infinite;   /* call the animation  */
-}
-
-/* name animation */
-@keyframes weavy-effect {
-    0%,100%{
-        clip-path: polygon(0 34%, 15% 70%, 35% 38%, 56% 61%, 79% 33%, 99% 54%, 100% 100%, 0 100%);
-
-    }
-    50%{
-        clip-path: polygon(0 57%, 18% 32%, 39% 64%, 54% 32%, 78% 66%, 100% 32%, 100% 100%, 0 100%);
-
-    }
-    
-}
-
-
 .header-nav-list,ul li.navlists {
     list-style: none;
     margin-left: 10px;
@@ -81,6 +55,7 @@ p.name:nth-child(2) {
     font-size: 1.2em;
     cursor: pointer;
     color: cyan;
+
 
 }
 

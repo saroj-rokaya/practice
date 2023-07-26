@@ -7,7 +7,6 @@ export default function Header() {
         <nav>
             <div className="namecontainer">
             <p className="name">Saroj Kumar Rokaya</p>
-            <p className="name">Saroj Kumar Rokaya</p>
             </div>
             <ul className="header-nav-lists">
                 <li className="navlists">Home</li>
