@@ -2,7 +2,7 @@
 .photo{
     height: 45vh;
     border-radius: 50%;  
-    border-bottom: 4px solid cyan;
+    border-bottom: 4px  solid red;
 }
 .homecontainer{
     display: flex;

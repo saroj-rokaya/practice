@@ -9,7 +9,9 @@ export default function Left() {
 
 
   <div className="img">
-    <img src={logo} className="photo" alt="image" />
+   <a href={logo}>
+   <img src={logo} className="photo" alt="image" />
+   </a>
   </div>
 
   <div className="introcontainer">

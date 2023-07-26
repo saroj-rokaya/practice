@@ -12,7 +12,9 @@ export default function Footer() {
 
           <div className="footer-headers">
             <div className="left-right-footer-header">
-             <img src={image} id="footer-image" alt="image" />
+              <a href={image}>
+              <img src={image} id="footer-image" alt="image" />
+              </a>
               <p id="name">saroj Kumar Rokaya</p>
             </div>
             <div className="left-right-footer-header">
