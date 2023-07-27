@@ -3,7 +3,7 @@
 .footercontainer{
     height: 50vh;
     width: 100%;
-    background-color: rgb(3, 8, 76);
+    background-color:  rgb(5, 13, 127);
     display: flex;
     margin-top: 1px;
     
@@ -165,7 +165,7 @@
     height: 4vh;
     width: 100%;
     text-align: center;
-    background-color: rgb(3, 8, 76);
+    background-color:  rgb(5, 13, 127);
     padding-top: 2px;
     color: cyan;
     
