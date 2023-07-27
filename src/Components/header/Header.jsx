@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css"
+import CV from "./CV.pdf"
 
 export default function Header() {
   return (
@@ -14,6 +15,9 @@ export default function Header() {
                 <li className="navlists">Skills</li>
                 <li className="navlists">Projects</li>
                 <li className="navlists">Contact</li>
+                <a href={CV}>
+                <li className="navlists">CV</li>
+                </a>
             </ul>
         </nav>
     </div>

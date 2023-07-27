@@ -10,6 +10,7 @@ export default function Contacts() {
     </div>
 
     <div className="contactsform-container">
+      <div className="contactsform-inner-container">
       
       <form>
        <input type="text" name="fullName" placeholder="Enter Your Full Name" className="boxes" required/><br />
@@ -25,6 +26,7 @@ export default function Contacts() {
       <button className='submitBtn'>submit &#8594;</button>
 
       </form>
+      </div>
 
 
        

@@ -64,3 +64,8 @@ nav .namecontainer {
     text-decoration: underline;
     opacity: 75%;
 }
+
+/* anchar tag for cv */
+a{
+    text-decoration: none;
+}

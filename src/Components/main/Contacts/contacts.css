@@ -33,12 +33,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color:  red; */
+    /* background-color:  darkblue; */
+    /* border-left: 10px solid darkcyan;
+    border-right: 2px solid darkcyan; */
 }
+.contactsform-inner-container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+    /* background-color:  green; */
+    border-left: 1px solid darkcyan;
+    border-right: 1px solid darkcyan; 
+}
+
+
 /* forms style */
-form{
+
+/* form{
     margin: 1rem 0 1rem 0;
-}
+} */
+
 
 /* styles for all input boxes */
 
