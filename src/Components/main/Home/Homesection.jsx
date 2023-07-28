@@ -21,7 +21,7 @@ export default function Left() {
     </p>
 
     <p className="intro">
-    I am a frontend <span className="developer">developer.</span>
+    I am a <span className="developer">frontend developer.</span>
     </p>
   </div>
 
