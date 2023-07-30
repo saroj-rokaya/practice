@@ -82,6 +82,7 @@ export default function Footer() {
         </div>
 
       </div>
+             
 
       {/* copyright footer section */}
       <div className="copyright">

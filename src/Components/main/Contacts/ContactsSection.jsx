@@ -14,7 +14,7 @@ export default function Contacts() {
        <div className="contactsform-inner-left-container">
         <p className="contactme">Contact Me</p>
         <p className="contactme-description">
-          Feel free to drop your information on your right
+          Feel free to drop your information on your right.
         </p>
       </div>
 
