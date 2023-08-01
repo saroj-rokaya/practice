@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
 }
-.skill-no-1{
+.skills-card-container{
     height: 30vh;
     width: 50%;
     color: cyan;
@@ -25,4 +25,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: maroon;
 }
+/* .cards{
+    height: 100%    ;
+    width: 100%;
+    background-color: blueviolet;
+}
+.card{
+    height: 10vh    ;
+    width: 10vh;
+    background-color: red;
+} */

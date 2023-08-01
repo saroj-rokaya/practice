@@ -1,9 +1,9 @@
 import React from 'react'
 import "./mainbody.css"
-import HomeSection from './Home/HomeSection'
+import Homesection from './Home/Homesection'
 import Aboutsection from './About/Aboutsection'
-import SkillsSection from './Skills/SkillsSection'
-import ProjectsSection from './Projects/ProjectsSection'
+import Skillssection from './Skills/Skillssection'
+import Projectssection from './Projects/Projectssection'
 import ContactsSection from './Contacts/ContactsSection'
 
 
@@ -12,7 +12,7 @@ export default function Mainbody() {
     <>
 
         <div className="home">
-            <HomeSection/>
+            <Homesection/>
         </div>
         
         <div className="about">
@@ -20,11 +20,11 @@ export default function Mainbody() {
         </div>
 
         <div className="skills">
-          <SkillsSection/>
+          <Skillssection/>
         </div>
 
         <div className="projects">
-          <ProjectsSection/>
+          <Projectssection/>
         </div>
 
         <div className="contacts">
