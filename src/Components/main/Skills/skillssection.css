@@ -1,39 +1,39 @@
-
 .skills-container{
-    color: cyan;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    margin-left: -15%;
 
 }
-.skills-contents{
-    font-size: 20px;
-    font-weight: 700;   
-    margin-left: 3%;
-    height: 30vh;
-    width: 10%;
+.left-skills-section{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-}
-.skills-card-container{
-    height: 30vh;
-    width: 50%;
+    padding-left: 12vh;
+    font-size: 2.8vh;
+    font-weight: 600;
     color: cyan;
-    font-size: 18px;
+    
+
+    height: 30vh;
+    width: 28vw;
+    /* background-color: red; */
+    
+}
+.right-skills-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: maroon;
+    gap: 10px;
+
+    height: 30vh;
+    width: 72vw;
+    /* background-color: blue; */
+    overflow-x: scroll;
 }
-/* .cards{
-    height: 100%    ;
-    width: 100%;
-    background-color: blueviolet;
-}
-.card{
-    height: 10vh    ;
-    width: 10vh;
+.skill{
+
+    height: 26vh;
+    min-width: 20vw;
     background-color: red;
-} */
+
+}
