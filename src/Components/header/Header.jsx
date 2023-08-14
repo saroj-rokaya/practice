@@ -18,7 +18,7 @@ export default function Header() {
                 <a href={CV}>
                 <li className="header-navlists">CV</li>
                 </a>
-                <i class="ri-menu-fill"></i>
+                <i class="ri-menu-fill header-menu"></i>
             </ul>
         </nav>
     </div>

@@ -19,10 +19,10 @@
     flex-direction: column;
 }
 .welcome{
-    font-size: 40px;
+    font-size: 5.5vh;
 }
 .intro{
-    font-size: 30px;
+    font-size: 4vh;
 }
 .myweb,.developer{
     color: rgb(233, 4, 4);
@@ -40,6 +40,31 @@
 @keyframes animate {
     100%{
         background-position: 0 0;
+    }
+    
+}
+@media (max-width:600px) {
+
+    .photo{
+        display: none;      
+    }
+    .homecontainer{        
+        flex-direction: column;   
+        /* height: 30vh;     */
+
+    }
+    .introcontainer{
+        /* height: 0vh; */
+        width: 100%;
+        
+    }
+    .welcome{
+        font-size: 4vh;
+        padding: 2vh;
+    }
+    .intro{
+        font-size: 3vh;
+        padding-left: 0vh;
     }
     
 }

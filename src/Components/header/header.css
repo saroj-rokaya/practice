@@ -60,7 +60,7 @@ nav .namecontainer {
     color: cyan;
 }
 
-.ri-menu-fill{
+.header-menu{
     font-size: 3vh;
     color: white;
     display: none;
@@ -94,7 +94,7 @@ a{
     .header-nav-lists{
         display: none;
     }
-    .ri-menu-fill{
+    .header-menu{
         display: contents;
         color: white;
         font-size: 3vh;
