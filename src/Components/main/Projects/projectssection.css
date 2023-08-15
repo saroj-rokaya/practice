@@ -28,3 +28,19 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:600px) {
+    .projectscontainer{
+        justify-content: center;       
+        flex-direction: column;
+    
+    }
+    .projectss{
+        width: 100vw;
+    }
+    .projectsbag{
+        width: 100vw;
+    }
+
+
+}

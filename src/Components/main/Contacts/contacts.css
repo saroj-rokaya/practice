@@ -124,3 +124,43 @@
     text-align: center;
 
 }
+
+@media (max-width:600px) {
+
+    .contactscontainer{
+        flex-direction: column;
+    
+    }
+    .contactss{
+        width: 100%;
+        
+    }
+    .contactsform-container{
+        width: 100%;
+        
+    }
+    .contactsform-inner-right-container{
+        width: 100%;        
+    }
+    
+    /* submit button style in form */
+    
+    .submitBtn{
+        background-color: transparent;
+        border: 2px solid darkcyan;
+        color: cyan;
+        width: 100%;
+        font-size: 1rem;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    
+    
+    /* //styles for the left container */
+    
+    .contactsform-inner-left-container{
+        display: none;
+    }
+    
+}

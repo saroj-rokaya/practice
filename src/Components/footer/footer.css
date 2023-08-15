@@ -171,3 +171,137 @@
     
 
 }
+@media (max-width:600px) {
+
+    .footercontainer{
+    flex-direction: column;
+    
+
+}
+.left-footer-container{
+    /* height: 50vh; */
+    width: 100%;
+}
+.footer-headers{
+
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-right-footer-header{
+    /* height: 10vh; */
+    width: 100%;
+    
+    
+}
+
+#footer-image{
+    padding: 0.1vh;
+    height: 7vh;
+    /* display: none; */
+    
+}
+#name{
+   
+    font-weight: 600;
+    font-size: 2.5vh;
+    
+}
+
+.footer-bodies{
+    /* height: 40vh; */
+    width: 100%;
+
+}
+.left-right-footer-body{
+    /* height: 40vh; */
+    width: 100%;
+    color: cyan;
+    display: flex;
+    /* justify-content: center; */
+    
+}
+
+.footerintro{
+    color: cyan;
+    width: 100%;
+    margin-left: 2rem;
+    /* display: none; */
+}
+
+.right-footer-container{
+    width: 100%;
+    
+}
+
+.footer-contact-header{
+    height: 20vh;
+    width: 100%;
+    margin-left: 12vw;
+    margin-bottom: 2vh;
+   justify-content: space-between;
+
+
+}
+.follow-me-section{
+    width: 50%;
+    
+}
+.contact-section{
+    height: 10vh;
+    width: 50%;
+    
+}
+
+
+
+.follow-me-body{
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    margin-left: 30px;
+    overflow: hidden;
+    background-color: red;
+}
+.contact-section-body{
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    overflow: hidden;
+    /* background-color: red; */
+
+}
+.follow-me-lists li{
+    list-style: none;
+    color: cyan;
+}
+.follow-me-lists li:hover{
+    cursor: pointer;
+    opacity: 60%;
+    text-decoration: underline;
+}
+.contact-lists li{
+    list-style: none;
+    color: cyan;
+
+}
+.contact-lists li span.email:hover{
+    cursor: pointer;
+    text-decoration: 1px solid underline;
+    opacity: 60%;
+
+
+}
+
+/* copyright section */
+.copyright{
+
+    width: 100%;
+    text-align: center;
+    background-color:  rgb(5, 13, 127);
+    padding-top: 2px;
+    color: cyan;
+    padding-bottom: 1rem;
+    }
+}

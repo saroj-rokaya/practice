@@ -10,7 +10,6 @@ import ContactsSection from './Contacts/ContactsSection'
 export default function Mainbody() {
   return (
     <>
-
         <div className="home">
             <Homesection/>
         </div>
@@ -29,9 +28,7 @@ export default function Mainbody() {
 
         <div className="contacts">
           <ContactsSection/>
-        </div>
-
-        
+        </div>        
     </>
   )
 }

@@ -37,3 +37,21 @@
     background-color: red;
 
 }
+@media (max-width:600px) {
+
+    .skills-container{
+        
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+
+    .left-skills-section{
+        justify-content: center;
+         width: 100vw;        
+    }
+    .right-skills-section{    
+        width: 100vw;
+    }
+    
+}
