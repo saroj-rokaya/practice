@@ -86,7 +86,7 @@ export default function Footer() {
 
       {/* copyright footer section */}
       <div className="copyright">
-        &copy;Copyright 2023, All right reserved || Saroj Kumar Rokaya
+        <p className="copyright-footer">&copy;Copyright 2023, All right reserved || Saroj Kumar Rokaya</p>
       </div>
 
     </>
