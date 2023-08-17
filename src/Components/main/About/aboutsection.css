@@ -18,7 +18,7 @@
     align-items: center;
 }
 .aboutcontent{
-    height: 30vh;
+    /* height: 30vh; */
     width: 50%;
     color: cyan;
     font-size: 18px;
@@ -30,15 +30,14 @@
 }
 @media (max-width:600px) {
     .aboutcontainer{
-        /* height: 50vh; */
         justify-content: center;       
         flex-direction: column;
+        gap: 2vh;
     
     }
     .aboutme{
         font-size: 20px;
         font-weight: 700;
-        /* background-color: red; */
         height: 3vh;
         width: 100%;
         display: flex;
@@ -48,11 +47,12 @@
     .aboutcontent{
         
         width: 100%;  
-        margin: 9vh;      
-        /* background-color: pink; */
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 20vw;
+        padding-right: 8vw;
+        
     }
     
     

@@ -13,7 +13,7 @@
 /* left contact section styles */
 
 .contactss{
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: 700;
     margin-left: 3%;
     /* background-color: red; */
@@ -49,14 +49,6 @@
     /* border-right: 1px solid darkcyan;  */
 }
 
-
-/* forms style */
-
-/* form{
-    margin: 1rem 0 1rem 0;
-} */
-
-
 /* styles for all input boxes */
 
 .boxes{
@@ -76,7 +68,6 @@
 .boxes::placeholder{
     color: darkcyan;
 }
-
 
 
 #txtbox{
@@ -140,7 +131,12 @@
         
     }
     .contactsform-inner-right-container{
-        width: 100%;        
+        width: 100%;
+        padding-left: 15vw;        
+        
+    }
+    .boxes{
+        width: 85vw;
     }
     
     /* submit button style in form */
