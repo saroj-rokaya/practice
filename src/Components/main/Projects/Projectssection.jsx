@@ -10,7 +10,11 @@ export default function Projectssection() {
       </div>
 
       <div className="projectsbag">
-        projectsbag
+        <div className="projectingbag-items">one</div>
+        <div className="projectingbag-items">dsd</div>
+        <div className="projectingbag-items">sdfsd</div>
+        <div className="projectingbag-items">sdfds</div>
+        <div className="projectingbag-items">sdf</div>
       </div>
 
 

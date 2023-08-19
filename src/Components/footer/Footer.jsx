@@ -3,6 +3,7 @@ import "./footer.css";
 import image from './image.png'
 
 
+
 export default function Footer() {
   return (
     <>
@@ -36,11 +37,11 @@ export default function Footer() {
 
             <div className="left-right-footer-body">
               <ol className="lists">
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><span><i class="fa-solid fa-house"></i></span>Home</li>
+                <li><span><i class="fa-solid fa-phone"></i></span>About</li>
+                <li><span><i class="fa-solid fa-phone"></i></span>skills</li>
+                <li><span><i class="fa-solid fa-phone"></i></span>Projects</li>
+                <li><span><i class="fa-solid fa-phone"></i></span>Contact</li>
               </ol>
             </div>
           </div>
@@ -61,10 +62,10 @@ export default function Footer() {
           <div className="footer-contact-body">
             <div className="follow-me-body">
             <ol className="follow-me-lists">
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Linkedin</li>
-                <li>Github</li>
+                <a href="https://www.facebook.com/saroj.rokaya.5686"><li><span><i class="fa-brands fa-facebook"></i></span>Facebook</li></a>
+                <a href="https://www.instagram.com/rokayasaroj188/"><li><span><i class="fa-brands fa-instagram"></i></span>Instagram</li></a>
+                <a href="https://www.linkedin.com/in/saroj-rokaya-20289125b/"><li><span><i class="fa-brands fa-linkedin"></i></span>Linkedin</li></a>
+                <a href="https://github.com/saroj-rokaya"><li><span><i class="fa-brands fa-github"></i></span>Github</li></a>
               </ol>
             </div>
 
@@ -72,7 +73,7 @@ export default function Footer() {
             <div className="contact-section-body">
             <ol className="contact-lists">
                 <li>Ph:-<span>9849925392</span></li>
-                <li>Email:-<span className="email">rokayasaroj188@gmail.com</span></li>
+                <li className="email">Email:-<span className="email">rokayasaroj188@gmail.com</span></li>
                 
               </ol>
             </div>

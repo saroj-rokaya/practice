@@ -27,6 +27,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2vh;
+}
+
+.projectingbag-items{
+    height: 25vh;
+    width: 20vw;
+    color: cyan;
+    font-size: 1vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid darkcyan;
+
+
+
 }
 
 @media (max-width:600px) {

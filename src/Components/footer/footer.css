@@ -70,6 +70,10 @@
   opacity: 60%;
   text-decoration: underline;
 }
+
+.lists span{
+  margin-right: 1vh;}
+
 .right-footer-container {
   width: 50%;
   display: flex;
@@ -131,6 +135,12 @@
   opacity: 60%;
   text-decoration: underline;
 }
+.follow-me-lists li span{
+
+  margin-right: 1vh;
+
+}
+
 .contact-lists li {
   list-style: none;
   color: cyan;
@@ -236,4 +246,6 @@
     font-size: 1.7vh;
     opacity: 60%;
   }
+  .email{
+    font-size: 2vh;  }
 }
