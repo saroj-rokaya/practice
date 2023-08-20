@@ -38,9 +38,9 @@ export default function Footer() {
             <div className="left-right-footer-body">
               <ol className="lists">
                 <li><span><i class="fa-solid fa-house"></i></span>Home</li>
-                <li><span><i class="fa-solid fa-phone"></i></span>About</li>
-                <li><span><i class="fa-solid fa-phone"></i></span>skills</li>
-                <li><span><i class="fa-solid fa-phone"></i></span>Projects</li>
+                <li><span><i class="fa-solid fa-circle-info"></i></span>About</li>
+                <li><span><i class="fa-solid fa-book-open"></i></span>skills</li>
+                <li><span><i class="fa-solid fa-file-pen"></i></span>Projects</li>
                 <li><span><i class="fa-solid fa-phone"></i></span>Contact</li>
               </ol>
             </div>
@@ -72,8 +72,8 @@ export default function Footer() {
 
             <div className="contact-section-body">
             <ol className="contact-lists">
-                <li>Ph:-<span>9849925392</span></li>
-                <li className="email">Email:-<span className="email">rokayasaroj188@gmail.com</span></li>
+                <li><span className="call-logo"><i class="fa-solid fa-phone"></i></span>Ph:-<span>9849925392</span></li>
+                <li className="email"><span className="email-logo"><i class="fa-solid fa-envelope"></i></span>Email:-<span className="email">rokayasaroj188@gmail.com</span></li>
                 
               </ol>
             </div>
@@ -87,7 +87,7 @@ export default function Footer() {
 
       {/* copyright footer section */}
       <div className="copyright">
-        <p className="copyright-footer">&copy;Copyright 2023, All right reserved || Saroj Kumar Rokaya</p>
+        <p className="copyright-footer">Copyright &copy; 2023, All right reserved || Saroj Kumar Rokaya</p>
       </div>
 
     </>

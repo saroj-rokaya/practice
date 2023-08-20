@@ -145,6 +145,9 @@
   list-style: none;
   color: cyan;
 }
+.email{
+  cursor: pointer;
+}
 .contact-lists li span.email:hover {
   cursor: pointer;
   text-decoration: 1px solid underline;
@@ -161,6 +164,13 @@
 }
 .copyright-footer{
   opacity: 60%;
+}
+.email-logo{
+  margin-right: 1vh;
+
+}
+.call-logo{
+  margin-right: 1vh;
 }
 @media (max-width: 600px) {
   .footercontainer {
