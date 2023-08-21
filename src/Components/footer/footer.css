@@ -5,11 +5,11 @@
   margin-top: 1px;
 }
 .left-footer-container {
-  height: 50vh;
+  /* height: 50vh; */
   width: 50%;
 }
 .footer-headers {
-  height: 10vh;
+  /* height: 10vh; */
   width: 100%;
   display: flex;
 }
@@ -36,18 +36,21 @@
   opacity: 60%;
   margin-right: -70px;
 }
+#min-name{
+  display: none;
+}
 #link-hdr {
   margin-top: 10px;
   opacity: 60%;
 }
 
 .footer-bodies {
+  /* height: 90vh; */
   width: 100%;
   display: flex;
-  /* background-color: red; */
 }
 .left-right-footer-body {
-  height: 40vh;
+  /* height: 40vh; */
   width: 60%;
   color: cyan;
   display: flex;
@@ -57,7 +60,8 @@
 .footerintro {
   color: cyan;
   width: 100%;
-  margin-left: 9.5rem;
+  padding-left: 16vh;
+  /* background-color: red; */
 }
 
 .lists li {
@@ -113,14 +117,14 @@
   display: flex;
 }
 .follow-me-body {
-  height: 40vh;
+  /* height: 40vh; */
   width: 40%;
   display: flex;
   margin-left: 30px;
   overflow: hidden;
 }
 .contact-section-body {
-  height: 10vh;
+  /* height: 10vh; */
   width: 100%;
   display: flex;
   overflow: hidden;
@@ -257,5 +261,14 @@
     opacity: 60%;
   }
   .email{
-    font-size: 2vh;  }
+    font-size: 2vh;  
+  }
+  #name {
+    display: none;
+  }
+  #min-name{
+    display: block;
+    opacity: 60%;
+    font-weight: 600;
+  }
 }
